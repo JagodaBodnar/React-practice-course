@@ -11,8 +11,8 @@ const NewExpense = (props) => {
         }
         props.onAddExpense(expenseData)
     }
-    const displayForm=(hide)=>{
-        setShowForm(hide)
+    const displayForm=()=>{
+        setShowForm(false)
     }
     return (
         <div className="new-expense">
